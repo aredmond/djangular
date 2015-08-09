@@ -62,3 +62,4 @@ private/*
 
 # Mask the real cloud.providers
 infrastructure/salt-master/cloud.providers
+cloud.providers
