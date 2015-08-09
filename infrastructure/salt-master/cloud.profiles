@@ -1,4 +1,9 @@
 openstack_minion:
     provider: my-rackspace-config
+<<<<<<< HEAD
     size: 1 GB Standard
     image: Ubuntu 14.04 LTS (Trusty Tahr)
+=======
+    size: 1GB Standard Instance
+    image: Ubuntu 14.04 LTS (Trusty Tahr) (PVHVM)
+>>>>>>> b9943bc24135a2fec629042789e10848b8822d99
