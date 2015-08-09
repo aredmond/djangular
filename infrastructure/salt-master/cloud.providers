@@ -18,6 +18,6 @@ my-rackspace-config:
   #
   user: <rackspace-username>
   tenant: <rackspace-tenant>
-  apikey: <rackspace-apikey>
+  apikey: change
 
   provider: openstack
