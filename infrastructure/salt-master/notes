@@ -1,0 +1,17 @@
+Django/Angular site template
+-----------------------------
+-saltmaster
+  passwd: <master password>
+  ip:     <master ip>
+  install commands: {
+      add-apt-repository ppa:saltstack/salt
+	  apt-get update
+	  apt-get install salt-master
+	  service salt-master stop
+  }
+  Config steps: {
+      /etc/salt/master line 15: {
+	      - #interface: 0.0.0.0
+              + interface: <master ip>
+	  }
+  }
