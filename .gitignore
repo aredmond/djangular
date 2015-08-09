@@ -57,5 +57,8 @@ docs/_build/
 target/
 
 # My private
-private/ 
+private/
 private/*
+
+# Mask the real cloud.providers
+infrastructure/salt-master/cloud.providers
