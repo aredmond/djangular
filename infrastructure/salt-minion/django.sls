@@ -23,6 +23,6 @@ git-test:
   git.latest:
     - name: https://github.com/aredmond/custom_configs.git
     - rev: master
-    - target: /root
+    - target: /root/repo
     - require:
         - pkg: git
