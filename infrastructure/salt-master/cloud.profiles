@@ -1,0 +1,4 @@
+openstack_minion:
+    provider: my-rackspace-config
+    size: 1 GB Standard
+    image: Ubuntu 14.04 LTS (Trusty Tahr)
