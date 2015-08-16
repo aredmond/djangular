@@ -25,6 +25,21 @@ angular.module('App1', [
 
     $urlRouterProvider.otherwise('/');
     $stateProvider
+      .state('home', {
+        url: '/',
+        templateUrl: 'static/app1/partials/home.html',
+        controller: 'TweetCtrl',
+      })
+      .state('examples', {
+        url: '/',
+        templateUrl: 'static/app1/partials/examples.html',
+        controller: 'TweetCtrl',
+      })
+      .state('ideas', {
+        url: '/',
+        templateUrl: 'static/app1/partials/ideas.html',
+        controller: 'TweetCtrl',
+      })
       .state('tweets', {
         url: '/',
         templateUrl: 'static/app1/partials/tweet-list.html',
